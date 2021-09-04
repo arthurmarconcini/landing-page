@@ -1,0 +1,73 @@
+header {
+  height: 5em;
+  width: 100%;
+  padding: 0 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 4em;
+}
+
+.logo-area nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  list-style: none;
+  padding: 0;
+  gap: 0.8em;
+}
+
+.logo-area nav ul li {
+  cursor: pointer;
+  font-weight: 500;
+  color: rgb(44, 44, 44);
+}
+
+.logo-area nav ul li:hover {
+  opacity: 0.8;
+}
+
+.logo-area nav ul li:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seta {
+  background-image: url('data:image/svg+xml,\00003csvg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">\00003cpath fill="rgba(0,0,0,.54)" d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z">\00003c/path>\00003c/svg>');
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.bar {
+  height: 30px;
+  width: 1px;
+  background-color: rgb(219, 219, 219);
+  display: inline-block;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.logo h1 {
+  min-width: 163px;
+}
+
+.logo img {
+  width: 3em;
+}

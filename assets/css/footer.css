@@ -1,0 +1,38 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 10em;
+  gap: 3rem;
+}
+
+.account-info {
+  width: 40em;
+  height: 6em;
+  padding: 2em;
+
+  border: 1px solid rgb(255, 217, 215);
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+
+  background-color: rgb(253, 244, 243);
+}
+
+.global-info {
+  height: 6em;
+  display: flex;
+  gap: 3em;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-content span {
+  font-weight: 500;
+  font-size: 1.5em;
+}

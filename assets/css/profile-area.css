@@ -1,0 +1,49 @@
+.profile-area {
+  display: flex;
+  align-items: center;
+  gap: 1.25em;
+  height: 100%;
+}
+
+.profile-area img {
+  width: 2.5em;
+}
+
+.amount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+
+  padding: 1em;
+  height: 48px;
+
+  font-size: 0.9em;
+  background-color: #e4ffe4;
+  border: 1px solid #dbeedb;
+  border-radius: 30px;
+}
+
+.amount img {
+  width: 1.5em;
+}
+
+.value {
+  font-weight: 700;
+  color: #8cd879;
+}
+
+.pbar {
+  height: 10px;
+}
+
+.avatar {
+  cursor: pointer;
+}
+
+.avatar button {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

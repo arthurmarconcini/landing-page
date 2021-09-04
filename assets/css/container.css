@@ -1,0 +1,127 @@
+main {
+  flex: 1;
+  display: flex;
+
+  margin: 10em 10em 0;
+  gap: 5em;
+}
+
+.start {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+
+  min-width: 320px;
+}
+
+.start h1 {
+  font-size: 5em;
+  background-color: rgb(0, 0, 0);
+  background-position: relative;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+}
+
+.subtitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.8em;
+}
+
+.subtitle p {
+  font-size: 1.5em;
+}
+
+.subtitle span {
+  padding: 0.4em 0.6em;
+  font-size: 0.9em;
+  background-color: #e4ffe4;
+  border: 1px solid #dbeedb;
+  border-radius: 30px;
+}
+
+.subtitle img {
+  width: 1.5rem;
+}
+
+#players {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3em;
+  align-items: center;
+
+  max-width: 40rem;
+  height: 3rem;
+  overflow: hidden;
+}
+
+#players img {
+  width: 3em;
+  border-radius: 50%;
+}
+
+#players p {
+  text-align: center;
+  color: rgb(223, 223, 223);
+  font-weight: 700;
+  font-size: 1.1em;
+  margin-left: 0.5em;
+}
+
+#text-two {
+  background-image: url('../img/tennis-ball.png');
+  background-size: 1.5em;
+  background-position: absolute;
+  background-position-y: -10px;
+}
+
+#text-three {
+  background-image: url('../img/basketball-ball.png');
+  background-position: absolute;
+  background-position-x: 230px;
+  background-position-y: -20px;
+  background-size: 2.5em;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.buttons button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+  width: 16em;
+  height: 4em;
+
+  background-color: #fff;
+  border: none;
+  border-radius: 30px;
+
+  font-weight: 500;
+  cursor: pointer;
+  opacity: 0.8;
+
+  transition: all 0.1s;
+}
+
+.play-button:hover,
+.trailer-button:hover {
+  opacity: 1;
+}
+
+.play-button img {
+  width: 4em;
+}
+
+.trailer-button img {
+  width: 1.5em;
+}

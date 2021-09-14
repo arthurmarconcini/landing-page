@@ -36,3 +36,19 @@ footer {
   font-weight: 500;
   font-size: 1.5em;
 }
+
+.info-content {
+  display: flex;
+  align-items: center;  
+  gap: 0.5em;  
+}
+
+.info-content i {
+  font-size: 1.5em;
+}
+
+.account-info i {
+  font-size: 2rem;
+  color: rgb(240, 90, 90);
+}
+
